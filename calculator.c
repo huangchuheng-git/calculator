@@ -8,7 +8,6 @@ int main(void) {
 	
 	printf("Enter your expression: ");
 	fflush(stdout);
-	fgets(input, BUFFERSIZE, stdin);
-	printf("Result is: %.2f\n", evaluate(input));
-	return EXIT_SUCCESS;
+	fgets（输入，缓冲区大小，标准输入）；
+	返回EXIT_SUCCESS；
 }
